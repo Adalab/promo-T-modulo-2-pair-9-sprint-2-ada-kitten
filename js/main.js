@@ -159,6 +159,7 @@ btncancel.addEventListener('click', (ev) => {
   inputDesc.value = '';
   inputPhoto.value = '';
   inputName.value = '';
+  labelMessageError.innerHTML = '';
 });
 //ocultar o mostrar formulario add
 function showNewCatForm() {
